@@ -5,11 +5,6 @@
 - 날짜를 기준으로 현재가, 종가의 상관관계를 분석하여 주식투자 시 의사결정과 종목 분석 등에 활용할 수 있다.
 
 
-## Built With
-- 서기현 - 데이터 가공, 상관관계 및 시각화, PPT 작성, 발표, Readme 작성
-- 이재석 - 데이터 제공, 상관관계 분석, 자료 조사
-
-
 ## 프로젝트 주제 선정 배경
 코로나 19의 전 세계 확산으로 인해 주가들이 한 달 사이에 크게 폭락했고, 이에 따라 몇몇 대기업들과 중견 중소기업들이 크게 휘청거리거나 부도가 났다. 이러한 위기 상황에서 20~30대들은 주식투자를 하나의 기회로 보고 마치 모두 약속이라도 한 듯 투자계좌를 개설하여 삼성전자를 비롯해 국내외 다양한 기업들의 주식을 사기 시작했다. 많은 투자 종목 중 친환경 관련주와 유류 관련 주로 선정한 이유는 코로나 19로 인해 친환경에 많은 관심을 가지게 되었고, 이와 정반대인 종목과 유의미한 관계가 있는지 비교해보고 싶어 유류 관련주로 선정했다. 친환경 기업에 투자를 한다는 가정하에 투자 전 먼저 데이터를 탐색해 봄으로써 투자의사 결정에 유의미한 인사이트를 얻고자 하며, 통상적으로 알려진 상식으로 판단하여 투자해도 괜찮은지 살펴본다.
 
@@ -24,6 +19,10 @@
 ### 한계 및 시사점
 <img width="1161" alt="Screen Shot 2020-11-19 at 6 37 44 PM" src="https://user-images.githubusercontent.com/72849922/99648622-98166e80-2a96-11eb-842b-58b71db5ee7d.png">
 
+
+## 기여자
+- 서기현 - 데이터 가공, 상관관계 및 시각화, PPT 작성, 발표, Readme 작성
+- 이재석 - 데이터 제공, 상관관계 분석, 자료 조사
 
 
 
@@ -209,14 +208,3 @@ plt.legend(loc=0);
 
 #### 음의 상관관계 Top5 시각화 결과
 * - 대부분 예측했던 대로 친환경 관련 기업주와 유류 관련 기업, 유가는 높은 양의 상관관계를 보였다.
-
-
-### 질문에 답하기
-<img width="1170" alt="Screen Shot 2020-11-19 at 6 30 41 PM" src="https://user-images.githubusercontent.com/72849922/99647762-9009ff00-2a95-11eb-9e8b-67fe17cb5819.png">
-<img width="1257" alt="Screen Shot 2020-11-19 at 10 14 24 PM" src="https://user-images.githubusercontent.com/72849922/99670927-a4112900-2ab4-11eb-8dae-dbd1b9f5f060.png">
-<img width="1164" alt="Screen Shot 2020-11-19 at 6 35 51 PM" src="https://user-images.githubusercontent.com/72849922/99648159-11619180-2a96-11eb-9d68-f55f7e91e4f4.png">
-<img width="1163" alt="Screen Shot 2020-11-19 at 6 36 29 PM" src="https://user-images.githubusercontent.com/72849922/99648244-28a07f00-2a96-11eb-9684-7f43eea08409.png">
-
-
-### 한계 및 시사점
-<img width="1161" alt="Screen Shot 2020-11-19 at 6 37 44 PM" src="https://user-images.githubusercontent.com/72849922/99648622-98166e80-2a96-11eb-842b-58b71db5ee7d.png">
